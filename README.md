@@ -28,6 +28,7 @@ Built as a mix of **infographic storytelling + data visualization + an interacti
 
 ## 📂 Project Structure
 
+```text
 timeline-java/
 ├── public/
 │   └── favicon.svg
@@ -48,9 +49,6 @@ timeline-java/
 ├── .gitignore         # Git ignored files (node_modules, dist, etc.)
 └── README.md          # Project documentation
 
-
-
----
 
 ## 🧪 Run Locally
 
