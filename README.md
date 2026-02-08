@@ -28,17 +28,26 @@ Built as a mix of **infographic storytelling + data visualization + an interacti
 
 ## 📂 Project Structure
 
-timelineJava/
-├── src/
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
+timeline-java/
 ├── public/
-├── index.html
-├── tailwind.config.js
-├── postcss.config.js
-├── package.json
-└── README.md
+│   └── favicon.svg
+│
+├── src/
+│   ├── App.jsx          # Main application component (timeline + quiz logic)
+│   ├── main.jsx         # React entry point (creates root & renders App)
+│   └── index.css        # Global styles & Tailwind directives
+│
+├── index.html           # Root HTML file for Vite
+│
+├── tailwind.config.js   # Tailwind CSS configuration
+├── postcss.config.js    # PostCSS configuration for Tailwind
+│
+├── package.json         # Project metadata & dependencies
+├── package-lock.json   # Locked dependency versions
+│
+├── .gitignore           # Git ignored files (node_modules, dist, etc.)
+├── README.md            # Project documentation
+
 
 
 ---
