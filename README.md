@@ -48,7 +48,7 @@ timeline-java/
 │
 ├── .gitignore         # Git ignored files (node_modules, dist, etc.)
 └── README.md          # Project documentation
-
+```
 
 ## 🧪 Run Locally
 
@@ -56,10 +56,12 @@ timeline-java/
 ```bash
 git clone https://github.com/VijayNT23/timeline-java.git
 cd timeline-java
+
 2️⃣ Install dependencies
 npm install
+
 3️⃣ Start development server
 npm run dev
-Open your browser at:
 
+Open your browser at:
 http://localhost:5173
