@@ -30,23 +30,23 @@ Built as a mix of **infographic storytelling + data visualization + an interacti
 
 timeline-java/
 ├── public/
-│   └── favicon.svg
+│ └── favicon.svg
 │
 ├── src/
-│   ├── App.jsx          # Main application component (timeline + quiz logic)
-│   ├── main.jsx         # React entry point (creates root & renders App)
-│   └── index.css        # Global styles & Tailwind directives
+│ ├── App.jsx # Main application component (timeline + quiz logic)
+│ ├── main.jsx # React entry point (creates root & renders App)
+│ └── index.css # Global styles & Tailwind directives
 │
-├── index.html           # Root HTML file for Vite
+├── index.html # Root HTML file for Vite
 │
-├── tailwind.config.js   # Tailwind CSS configuration
-├── postcss.config.js    # PostCSS configuration for Tailwind
+├── tailwind.config.js # Tailwind CSS configuration
+├── postcss.config.js # PostCSS configuration for Tailwind
 │
-├── package.json         # Project metadata & dependencies
-├── package-lock.json   # Locked dependency versions
+├── package.json # Project metadata & dependencies
+├── package-lock.json # Locked dependency versions
 │
-├── .gitignore           # Git ignored files (node_modules, dist, etc.)
-├── README.md            # Project documentation
+├── .gitignore # Git ignored files (node_modules, dist, etc.)
+└── README.md # Project documentation
 
 
 
