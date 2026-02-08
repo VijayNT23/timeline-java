@@ -1,16 +1,58 @@
-# React + Vite
+# ☕ Java Timeline — From Oak to OpenJDK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and visually rich web application that explores the **evolution of Java** —  
+from its beginnings as **Project Oak (1991)** to its modern **OpenJDK** dominance.
 
-Currently, two official plugins are available:
+Built as a mix of **infographic storytelling + data visualization + an interactive quiz**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📜 **Historical Timeline** of Java milestones
+- 📊 **Interactive Charts** showing Java’s platform dominance
+- 🧠 **10-Question Quiz** to test Java knowledge
+- 🎨 Modern **dark UI** with smooth animations
+- ⚡ Fast performance with Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React** – UI & state management  
+- **Vite** – Lightning-fast development & build tool  
+- **Tailwind CSS** – Utility-first styling  
+- **Chart.js** + **react-chartjs-2** – Data visualizations  
+
+---
+
+## 📂 Project Structure
+
+timelineJava/
+├── src/
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── public/
+├── index.html
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+
+
+---
+
+## 🧪 Run Locally
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/VijayNT23/timeline-java.git
+cd timeline-java
+2️⃣ Install dependencies
+npm install
+3️⃣ Start development server
+npm run dev
+Open your browser at:
+
+http://localhost:5173
